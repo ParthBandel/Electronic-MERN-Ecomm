@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.app {
+  height: 80vh;
+}
+
+.toggle{
+  display: none;
+}
+
+@media (max-width: 690px) {
+  .toggle{
+    display: block;
+  }
+}

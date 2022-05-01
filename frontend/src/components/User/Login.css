@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+.login_screen{
+  background-color: #d4d1d1;
+  margin-bottom: 30px;
+}
+
+h1{
+  font-family: Neue Aachen,serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 1.875em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main_frame{
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 35rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 140px;
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    height: 100vh; */
+}
+
+.card_login{
+    max-width: 1000px;
+    padding: 25px;
+    /* width: 50vw;
+    height: 100vh;
+    flex: 50%; */
+    /* margin-bottom: 30px; */
+  }
+
+  .form{
+      padding: 1rem;
+  }
+
+  .control {
+    margin-bottom: 0.5rem;
+  }
+
+  .control label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+  }
+  
+  .control input,
+  .control textarea {
+    font-family: Neue Aachen,serif;
+    display: block;
+    padding: 10px;
+    padding-right: 0;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 0;
+  }
+  
+  .action_buttons {
+    margin-top: 1rem;
+    text-align: right;
+  }
+
+  .action_buttons button {
+    display: inline-block;
+    font-family: Neue Aachen,serif;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    padding: 15px 45px;
+    font-weight: 200;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
+  .action_buttons button:hover,
+  .action_buttons button:active {
+    background-color: #464646;
+  }
+
+  .register_line{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .p_tag{
+    text-decoration: none;
+  }
+
+  .register_link{
+    text-decoration: none;
+    color: black;
+  }
+
+  .register_link:hover{
+    color: blue;
+  }
